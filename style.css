@@ -1,0 +1,32 @@
+/*typography------------------------------------------------------------------------------------*/
+body{
+    font-family: 'Tinos', serif;
+}
+h2{
+    text-align: center;
+    color: #575636;
+}
+p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #96955d;
+}
+button.btn-block{
+    background-image: none;
+    background-color: #c1b170;
+    color: #575636;
+}
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
